@@ -1,0 +1,12 @@
+WEB:
+WEB - технологія інформаційної взаємодії в Інтернеті (всесвітня павутина). 
+Компьютери які підєднані до мережі інтернет це чи клієнти, або сервери.
+
+ans:
+1. What does HTML stand for? Documents designed to be displayed in a web browser.
+2. Who is making the Web standards? Sir Tim Berners Lee and 
+3. What is the correct HTML element for the largest heading? <h1> text </h1>
+4. What is the correct HTML element for inserting a line break? <p> text <br> </p>
+5. What is the correct HTML for adding a background color? <body style="background-color:red;"> text </body>
+6. What is the correct HTML element to define important text? <strong> text </strong>
+7. What is the correct HTML for creating a hyperlink? <a href="url"> link text </a>
