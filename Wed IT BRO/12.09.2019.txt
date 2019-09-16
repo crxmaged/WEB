@@ -10,3 +10,9 @@ ans:
 5. What is the correct HTML for adding a background color? <body style="background-color:red;"> text </body>
 6. What is the correct HTML element to define important text? <strong> text </strong>
 7. What is the correct HTML for creating a hyperlink? <a href="url"> link text </a>
+
+TCP/IP
+DNS
+
+тег
+атрибути
