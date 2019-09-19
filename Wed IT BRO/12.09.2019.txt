@@ -2,7 +2,7 @@ WEB:
 WEB - технологія інформаційної взаємодії в Інтернеті (всесвітня павутина). 
 Компьютери які підєднані до мережі інтернет це чи клієнти, або сервери.
 
-ans:
+ans1:
 1. What does HTML stand for? Documents designed to be displayed in a web browser.
 2. Who is making the Web standards? Sir Tim Berners Lee and 
 3. What is the correct HTML element for the largest heading? <h1> text </h1>
@@ -10,6 +10,23 @@ ans:
 5. What is the correct HTML for adding a background color? <body style="background-color:red;"> text </body>
 6. What is the correct HTML element to define important text? <strong> text </strong>
 7. What is the correct HTML for creating a hyperlink? <a href="url"> link text </a>
+
+ans2:
+1. Why will we use the language attribute in web pages? Will provide additional information about HTML elements and control the element's behaviour
+2. When we use src? While use tag img gets the image from a web server and inserts it into the page, we must use required src attribute specifies the URL of the image.
+3. Why we must use alt in img? alt attribute provides alternative information for an image if a user for some reason cannot view it.
+4. What is "id" and "class". What is the difference between them? id attribute specifies a unique id for an HTML element, 
+class attribute is used to define equal styles for elements with the same class name.
+An HTML element can only have one unique id that belongs to that single element, while a class name can be used by multiple elements.
+5. What`s difference between rel and rev? 
+6. What charset we will use Explain the meaning of the attributes: 
+7. frameborder 
+8. hreflang 
+9. scrolling 
+10. target 
+11. rowspan 
+12. placeholder 
+13. dropzone
 
 TCP/IP - Передача пакетів в мережі здійснюється відповідно до правил - стандартами, протоколами. 
 До них відносяться протоколи TCP / IP і UDP (TCP - transmission control protocol, IP - Internet protocol, UDP - user datagram protocol). 
