@@ -12,21 +12,22 @@ ans1:
 7. What is the correct HTML for creating a hyperlink? <a href="url"> link text </a>
 
 ans2:
-1. Why will we use the language attribute in web pages? Will provide additional information about HTML elements and control the element's behaviour
+1. Why will we use the language attribute in web pages? Will provide additional information about HTML elements and control the element's behaviour.
 2. When we use src? While use tag img gets the image from a web server and inserts it into the page, we must use required src attribute specifies the URL of the image.
 3. Why we must use alt in img? alt attribute provides alternative information for an image if a user for some reason cannot view it.
 4. What is "id" and "class". What is the difference between them? id attribute specifies a unique id for an HTML element, 
 class attribute is used to define equal styles for elements with the same class name.
 An HTML element can only have one unique id that belongs to that single element, while a class name can be used by multiple elements.
-5. What`s difference between rel and rev? 
-6. What charset we will use Explain the meaning of the attributes: 
-7. frameborder 
-8. hreflang 
-9. scrolling 
-10. target 
-11. rowspan 
-12. placeholder 
-13. dropzone
+5. What`s difference between rel and rev? rel attribute specifies the relationship between the current document and the linked document, 
+rev attribute is the reverse of the rel attribute, rev attribute specifies the relationship between the linked document and the current document.
+6. What charset we will use Explain the meaning of the attributes: <!–– text ––>
+7. frameborder - display a border around a frame yes/no (1/0).
+8. hreflang - language of the document in the link.
+9. scrolling - display scrollbars in an tag .
+10. target - where to open the linked document.
+11. rowspan - specifies the number of rows a cell should span.
+12. placeholder - specifies a short hint that describes the expected value of an input field.
+13. dropzone - specifies whether the dragged data is copied, moved, or linked, when it is dropped on an element.
 
 TCP/IP - Передача пакетів в мережі здійснюється відповідно до правил - стандартами, протоколами. 
 До них відносяться протоколи TCP / IP і UDP (TCP - transmission control protocol, IP - Internet protocol, UDP - user datagram protocol). 
