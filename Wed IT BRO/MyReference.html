@@ -7,9 +7,11 @@
 h1.intro {
     color: yellow;
 }
-
 p.important {
     color: green;
+}
+a.ref {
+    color: white;
 }
 body {
   background-image: url("https://wallpaperfm.com/img/original/3/0/6/49288.jpg");
@@ -18,10 +20,25 @@ body {
 </head>
 <body>
 	<header>
-		<h1 id="start" class="intro">Page contain reference about learning or help to creat site</h1>	
+		<h1 id="start" class="intro">Page contain reference about learning or help to creat site</h1>
+		<section id="navigation">
+  				<nav>
+			   		<ul>
+			   			<p class="important">Video source</p>
+			        	<li><a class="ref" href="#one">Video #1</a></li>
+			        	<li><a class="ref" href="#two">Video #2</a></li>
+			    	</ul>
+			    	<li><a href="#general">Загальна информація</a></li>
+				</nav>
+			</section>
 	</header>
 	<main>
-		
+		<section>
+			<p id="one">Video from first lesson</p>
+			<a href="https://youtu.be/KvvRJHAzbFs">Push #1</a>
+			<p id="two">Second video</p>
+			<a href="https://youtu.be/u2NPCWGmWIY">Push #2</a>
+		</section>
 	</main>
 	<footer>
 		
