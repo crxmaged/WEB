@@ -29,6 +29,39 @@ rev attribute is the reverse of the rel attribute, rev attribute specifies the r
 12. placeholder - specifies a short hint that describes the expected value of an input field.
 13. dropzone - specifies whether the dragged data is copied, moved, or linked, when it is dropped on an element.
 
+ans3:
+1. What methods has attribute 'method'? This attribute use with html tag <form> and has methods get/post.
+2. What do attribute `target`? Indicates where to display the response that is received after submitting the form,
+new window or tab ("_blank"), in the same frame (_self), add in the parent frame (_parent), 
+response is displayed in the full body of the window (_top).
+3. When we use attribute 'action'? Specifies where to send the form-data when a form is submitted.
+4. When we use attribute 'size'? Specifies the visible width, in characters, of an <input> element,
+works with the following input types: text, search, tel, url, email, and password.
+5. What do <input type='reset'>? That attribute defines a reset button which resets all form values to its initial values
+6. When we use attribute 'step'? The interval between legal numbers in an <input> element.
+Example: if step="3", legal numbers could be -3, 0, 3, 6, etc.
+7. When we use get & post HTTP methods?
+GET method, after the submission of the form, the form values will be visible in the address bar of the new browser tab.
+POST method, after the submission of the form, the form values will not be visible in the address bar of the new browser 
+tab as it was visible in the GET method.
+8, Tell in detail about the form elemente <datalist>
+This tag specifies a list of pre-defined options for an <input> element, users will see a drop-down list of pre-defined
+options as they input data. <input> element's list attribute bind it together with a <datalist> element.
+<input list="name list"> <datalist id="name list> <option value="name value">
+9. Tell in detail about the form elemente <textarea> 
+Creat text area of characters, and the text renders in a fixed-width font. Area specified by the cols and rows attributes.
+<textarea rows="" cols="">
+10. Tell in detail about the form elemente <selectt>
+Create a drop-down list without <input list> like a <datalist>.
+11. Tell in detail about the form elemente <tr>
+Tag defines a row in an HTML table, element contains <th> or <td> elements to specified count rows <th> and rows <td>
+12. Tell in detail about the form elemente <output>
+Tag represents the result and show the result in attribute name: <output name="" for=""></output> 
+13. What's the difference between <label> & <legend>?
+Tag <label> defines a label to provides a usability improvement for mouse users, attribute of the <label> tag should be equal 
+to the id attribute of the related element <label for="x"><input id="x"> to bind them together.
+Tag <legend> defines a caption for the <fieldset> element. <label> can use withuot <fieldset>, <legend> not!
+
 TCP/IP - Передача пакетів в мережі здійснюється відповідно до правил - стандартами, протоколами. 
 До них відносяться протоколи TCP / IP і UDP (TCP - transmission control protocol, IP - Internet protocol, UDP - user datagram protocol). 
 У мережах, заснованих на використанні набору протоколів TCP / IP, інформація передається пакетами зі стандартизованої структурою. 
