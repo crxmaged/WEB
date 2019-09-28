@@ -30,9 +30,9 @@
   	<body> <!-- class: my-header, mySetRed, my-title, my-nav, my-list, mySetGreen, my-SecondTitle, my-body, my-time, my-footer, obag-text -->
   		<header class="my-header" role="header">
   			<p class="mySetRed">Тестовий сайт 406 бригади!!!</p>
-  			<img src="https://scontent.flwo4-1.fna.fbcdn.net/v/t31.0-8/28423572_212902662786296_8045326726701721416_o.jpg?_nc_cat=107&_nc_oc=AQn2UOZEFoucaZlFyAfTcNf-HFoZB9rVv80LnDA0uoFm1blw2CPvX4RNsm_jaV3_bk4&_nc_ht=scontent.flwo4-1.fna&oh=b341ede6be7223bab743a0e55688ff6d&oe=5E35F3F6" style="width:1000px;height:600px;" alt="flag">
+  			<img src="https://scontent.flwo4-1.fna.fbcdn.net/v/t31.0-8/28423572_212902662786296_8045326726701721416_o.jpg?_nc_cat=107&_nc_oc=AQn2UOZEFoucaZlFyAfTcNf-HFoZB9rVv80LnDA0uoFm1blw2CPvX4RNsm_jaV3_bk4&_nc_ht=scontent.flwo4-1.fna&oh=b341ede6be7223bab743a0e55688ff6d&oe=5E35F3F6" style="width:500px;height:300px;" alt="flag">
+  			<img src="https://scontent.fiev22-1.fna.fbcdn.net/v/t1.0-9/26219337_188201461923083_8258495170843235257_n.jpg?_nc_cat=106&_nc_oc=AQnaYREiTe222pVycvh9NLY0EQLRB2BHhmKUPRQDBuuIaqoTlkXNWGJxZF4phj3mAOM&_nc_ht=scontent.fiev22-1.fna&oh=c1d0bcb6b4ef0ef65f2a656480ec7fc9&oe=5E07C8CC" style="width:400px;height:300px;" alt="title">
     		<h1 id="h1" class="my-title">406 ОАБр ім. генерал-хорунжого Олексія Алмазова ВМС ЗС України</h1>
-    		<img src="https://scontent.fiev22-1.fna.fbcdn.net/v/t1.0-9/26219337_188201461923083_8258495170843235257_n.jpg?_nc_cat=106&_nc_oc=AQnaYREiTe222pVycvh9NLY0EQLRB2BHhmKUPRQDBuuIaqoTlkXNWGJxZF4phj3mAOM&_nc_ht=scontent.fiev22-1.fna&oh=c1d0bcb6b4ef0ef65f2a656480ec7fc9&oe=5E07C8CC" alt="title">
     		<p> Сайт містить загальну інформацію про діючу 406 артилерійську бригаду </p>
 
     		<section id="back">
@@ -41,6 +41,7 @@
 			        	<li><a href="#">406 ОАБр на головну!</a></li>
 			        	<li><a href="#H1">Початок сайту</a></li>
 			        	<li><a href="#H2">Назва</a></li>
+			        	<li><a href="#formPerson">Вступити до лав ЗСУ</a></li>
 			        	<p class="mySetForMain">Часовий період існування бригади</p>
 			        	<li><a href="#first">2001 рік</a></li>
 			        	<li><a href="#second">2003 рік</a></li>
@@ -109,19 +110,76 @@
 			</main>
 			<hr>
 			<!-- forms-->
-			<form> <!-- use forms for user, who want use additional options-->
+			<form id="formPerson" action="/action_page.php" method="post"> <!-- use forms for user, who want use additional options-->
 				<fieldset>
-					<legend>Пошук бійця бригати</legend>
+					<legend>Електрона форма для вступу до лав ЗСУ та нашого підрозділу (406 ОАБр)</legend>
 					<label>
-						Заповніть поля для пошуку бійця
+						Заповніть поля <br> <br>
 					</label>
-					<input placeholder="ПІБ бійця" type="inputText" name="inputName">
-					<input placeholder="Посада" type="inputText" name="inputPosition">
-					<input placeholder="Звання" type="inputText" name="inputRage">
+					<section id = 'personInf'>
+						<input placeholder="Призвище" type="inputText" name="inputSecondName"> <br> <br>
+						<input placeholder="Ім'я" type="inputText" name="inputName"> <br> <br>
+						<input placeholder="Побатькове" type="inputText" name="inputAddName"> <br> <br>
+						<input placeholder="Номер телефону" type="inputText" name="inputPhone"> <br> <br>
+						<input placeholder="Електрона адреса" type="inputText" name="inputMail"> <br> <br>
+					</section>
+					<section id = 'genderInf'>
+						<label for="male">Чоловік</label>  
+						<input type="radio" name="gender" id="male" value="male"><br>
+						<label for="female">Жінка</label>
+						<input type="radio" name="gender" id="female" value="female"><br><br>
+					</section>
+					<section id = 'ansQ'>
+						<label for="ZSU">Чи служили ви раніше у ЗСУ?</label>
+						<input list="ansZSU" name="yesNoZ">
+	  					<datalist id="ansZSU">
+						    <option value="Так">
+						    <option value="Ні">
+						</datalist>
+					</section> <br>
+					<section id = 'ansQE'>
+						<label for="Experience">Чи маєте бойовий досвід?</label>
+						<input list="actionExperience" name="yesNoE">
+	  					<datalist id="actionExperience">
+						    <option value="Так">
+						    <option value="Ні">
+						</datalist>
+					</section> <br><br>
+					<section id = 'ansQW'>
+						<fieldset>
+							<legend>Якою зброєю вмієш користуватись?</legend>
+							<input type="checkbox" name="def1" value="weapon">
+							<label for="weapon">Вогнепальна зброя</label><br>
+							<input type="checkbox" name="def2" value="knife">
+							<label for="knife">Холодна зброя</label><br>
+							<input type="checkbox" name="def3" value="fight">
+							<label for="fight">Бойові мистецтва самозахисту</label><br> 
+							<input type="checkbox" name="def4" value="notherF">
+							<label for="anotherF">Інше...</label><br>
+						</fieldset>
+					</section><br>
+					<section id = 'ansY'>
+						<label for="yearWork">На який термін ви б могли підписати контракт?</label>
+						<input list="ansYear" name="PeriodTime">
+	  					<datalist id="ansYear">
+						    <option value="Півроку">
+						    <option value="Рік">
+						    <option value="Три">
+						    <option value="П'ять">
+						</datalist>
+					</section> <br>
+					<section id = 'ansPerson'>
+						<fieldset>
+							<legend>Вкажіть людей які можуть вас рекомендувати</legend>
+							<input placeholder="Призвище" type="inputText" name="inputSecondNameP"> <br> <br>
+							<input placeholder="Ім'я" type="inputText" name="inputNameP"> <br> <br>
+							<input placeholder="Номер телефону" type="inputText" name="inputNumPhone"> <br> <br>
+						</fieldset>
+					</section>
+					<br><br><button type="submitText" value="sendText">
+						Заповнення
+					</button>
 				</fieldset>
-				<button type="submitText" value="sendText">
-					Sent text
-				</button>
 			</form>
 			<br>
 			<!--footer-->
