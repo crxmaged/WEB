@@ -62,6 +62,35 @@
 		</section>
 
 	</main>
+		<!-- forms-->
+			<form id="formPerson" action="/action_page.php" method="post"> <!-- use forms for user, who want use additional options-->
+				<fieldset>
+					<legend>Електрона форма для відгуку</legend>
+					<label>
+						Заповніть поля <br> <br>
+					</label>
+					<section id = 'personInf'>
+						<input placeholder="Призвище" type="inputText" name="inputSecondName"> <br> <br>
+						<input placeholder="Ім'я" type="inputText" name="inputName"> <br> <br>
+						<input placeholder="Побатькове" type="inputText" name="inputAddName"> <br> <br>
+						<input placeholder="Номер телефону" type="inputText" name="inputPhone"> <br> <br>
+						<input placeholder="Електрона адреса" type="inputText" name="inputMail"> <br> <br>
+					</section>
+					<section id = 'ansFB'>
+						<label> Додаткова інформація
+							<fieldset>
+								Запишіть ваші побажання  <br> <br>
+								<input placeholder="Зворотній зв'язок" type="inputText" name="inputToDo"> <br> <br>
+							</fieldset>
+						</label>
+					</section> 
+					<br><br><button type="submitText" value="sendText">
+						Заповнення
+					</button>
+				</fieldset>
+			</form>
+			<br>
+
 	<footer role="footer">
 		
 	</footer>

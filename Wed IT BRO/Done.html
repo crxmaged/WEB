@@ -56,13 +56,27 @@
 						<input type="checkbox" name="seventh" value="do7">
 						<label for="do7">Неділя</label><br>
 					</fieldset>
-				</label>
-				<label>
-					Запишіть у довільній формі,  <br> <br>
-				</label>
-					<section id = 'ToDoMy'>
-						<input placeholder="Що було зроблено" type="inputText" name="inputToDo"> <br> <br>
-					</section>
+				</label><br><br>
+
+				<section id = 'ansW'>
+					<label for="WorkH">Виконував:</label>
+					<input list="ansWH" name="varA">
+	  				<datalist id="ansWH">
+						<option value="Робота зі своїм сайтом">
+						<option value="Читання літератури">
+						<option value="Відповіді на запитання">
+						<option value="Перегляд відеоуроку">
+					</datalist>
+				</section> <br>
+
+				<section id = 'ansA'>
+					<label> Додаткова інформація
+						<fieldset>
+							Запишіть у довільній формі  <br> <br>
+							<input placeholder="Що було зроблено" type="inputText" name="inputToDo"> <br> <br>
+						</fieldset>
+					</label>
+				</section> 
 			</fieldset>
 		</section>
 	</form>
