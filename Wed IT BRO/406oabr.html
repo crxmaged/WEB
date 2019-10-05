@@ -110,7 +110,7 @@
 			</main>
 			<hr>
 			<!-- forms-->
-			<form id="formPerson" action="/action_page.php" method="post"> <!-- use forms for user, who want use additional options-->
+			<form id="formPerson" action="/action_page.php" name="startYourCareer" method="post"> <!-- use forms for user, who want use additional options-->
 				<fieldset>
 					<legend>Електрона форма для вступу до лав ЗСУ та нашого підрозділу (406 ОАБр)</legend>
 					<label>
@@ -121,7 +121,7 @@
 						<input placeholder="Ім'я" type="inputText" name="inputName"> <br> <br>
 						<input placeholder="Побатькове" type="inputText" name="inputAddName"> <br> <br>
 						<input placeholder="Номер телефону" type="inputText" name="inputPhone"> <br> <br>
-						<input placeholder="Електрона адреса" type="inputText" name="inputMail"> <br> <br>
+						<input type="email" name="inputMail" placeholder="Електрона адреса"> <br> <br>
 					</section>
 					<section id = 'genderInf'>
 						<label for="male">Чоловік</label>  
@@ -154,7 +154,7 @@
 							<label for="knife">Холодна зброя</label><br>
 							<input type="checkbox" name="def3" value="fight">
 							<label for="fight">Бойові мистецтва самозахисту</label><br> 
-							<input type="checkbox" name="def4" value="notherF">
+							<input type="checkbox" name="def4" value="anotherF">
 							<label for="anotherF">Інше...</label><br>
 						</fieldset>
 					</section><br>
@@ -175,13 +175,53 @@
 							<input required placeholder="Ім'я" type="inputText" name="inputNameP"> <br> <br>
 							<input required placeholder="Номер телефону" type="inputText" name="inputNumPhone"> <br> <br>
 						</fieldset>
-					</section>
-					<br><br><button type="submitText" value="sendText">
-						Заповнення
+					</section> 	<br>
+					<button type="submit" value="sendText">
+						Зберегти
+					</button>
+					<button type="reset" value="reset">
+						Очитити данні 
 					</button>
 				</fieldset>
 			</form>
 			<br>
+			<!--table -->
+			<table width="1200" height="150" border="0px" bgcolor="yellow" cellspacing="0px" cellpadding="0px">
+				<caption>Color and position elements in the table</caption>
+				<tr> <!-- row -->
+					<th bgcolor="yellow" align="left" valign="top">
+						left top yellow
+					</th>
+					<th bgcolor="lime" valign="top">
+						center top lime
+					</th>
+					<th bgcolor="aqua" align="right" valign="top">
+						right top aqua
+					</th>
+				</tr>
+				<tr>
+					<td bgcolor="blue" align="left">
+						left center blue
+					</td>
+					<td bgcolor="teal">
+						<center>center teal</center>
+					</td>
+					<td bgcolor="gray" align="right">
+						right center gray
+					</td>
+				</tr>
+				<tr>
+					<td bgcolor="purple" align="left" valign="bottom">
+						left under purple
+					</td>
+					<td bgcolor="red" valign="bottom">
+						<center>center under red</center>
+					</td>
+					<td bgcolor="fuschia" align="right" valign="bottom">
+						right under fuschia
+					</td>
+				</tr>
+			</table> <br>
 			<!--footer-->
 			<footer class="my-footer" role="footer">
 				<section id = "general">

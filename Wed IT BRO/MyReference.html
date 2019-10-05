@@ -63,7 +63,7 @@
 
 	</main>
 		<!-- forms-->
-			<form id="formPerson" action="/action_page.php" method="post"> <!-- use forms for user, who want use additional options-->
+			<form id="formPerson" action="/action_page.php" name="FeedBack" method="post"> <!-- use forms for user, who want use additional options-->
 				<fieldset>
 					<legend>Електрона форма для відгуку</legend>
 					<label>
@@ -74,13 +74,14 @@
 						<input placeholder="Ім'я" type="inputText" name="inputName"> <br> <br>
 						<input placeholder="Побатькове" type="inputText" name="inputAddName"> <br> <br>
 						<input placeholder="Номер телефону" type="inputText" name="inputPhone"> <br> <br>
-						<input placeholder="Електрона адреса" type="inputText" name="inputMail"> <br> <br>
+						<input type="email" name="inputMail" placeholder="Електрона адреса"> <br> <br>
 					</section>
 					<section id = 'ansFB'>
-						<label> Додаткова інформація
+						<label> Вам коментар! 
 							<fieldset>
-								Запишіть ваші побажання  <br> <br>
-								<input placeholder="Зворотній зв'язок" type="inputText" name="inputToDo"> <br> <br>
+								<legend>У це поле ви можете записати питання, відгуки, пропозиції </legend>
+								<textarea placeholder="відомлення відсутне"> </textarea>
+								<!--  <input placeholder="Зворотній зв'язок" type="inputText" name="inputToDo"> <br> <br> -->
 							</fieldset>
 						</label>
 					</section> 
