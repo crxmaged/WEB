@@ -35,12 +35,171 @@
 				</td>
 			</tr>
 			<tr>
-				
+				<th>
+					Сержанські посади
+				</th>
+				<td>
+					<img src="https://github.com/crxmaged/WEB/blob/master/Wed%20IT%20BRO/img%20for%20web/MIL2.jpg?raw=true" height="160" width="830" />
+				</td>
+				<td>
+					<img src="https://github.com/crxmaged/WEB/blob/master/Wed%20IT%20BRO/img%20for%20web/NAVY2.jpg?raw=true" height="160" width="830" />
+				</td>
 			</tr>
 		</tbody>
 		<tfoot>
 			
 		</tfoot>
-	</table>
+	</table> <br><br><br>
+	<section id="setArea">
+		<form id="ToFoorm" name="helpForm" method="post">
+			<fieldset>
+				<legend>Електрона форма для зручної допомоги нашил солдатам</legend>
+					<label>
+						Заповніть поля, це дасть змогу надати допомогу вчасно та тому хто її потребує <br> <br>
+					</label>
+					<section id="aboutPosition">
+						<label>Вкажіть район де потребують допомогу</label>
+						<select>
+							<option value="sector1">сектор М</option>
+							<option value="sector2">сектор Д</option>
+							<option value="sector3">сектор В</option>
+							<option value="sector4">сектор Л</option>
+						</select> <br> <br> 
+						<label>Вкажіть разположення точки де потребують допомогу</label>
+						<select>
+							<option value="pos1">позиція 1</option>
+							<option value="pos2">позиція 2</option>
+							<option value="pos3">позиція 3</option>
+							<option value="pos4">позиція 4</option>
+							<option value="pos5">позиція 5</option>
+							<option value="pos6">позиція 6</option>
+							<option value="pos7">позиція 7</option>
+						</select>
+					</section>
+					<section>
+						<fieldset>
+							<legend></legend>
+							<legend>Яку допомогу треба надати!</legend>
+							<input type="checkbox" name="help1" value="clouthe">
+							<label for="clouthe">Амуніція</label><br>
+							<input type="checkbox" name="help2" value="food">
+							<label for="food">Їжа</label><br>
+							<input type="checkbox" name="help3" value="medicine">
+							<label for="medicine">Ліки</label><br>
+							<input type="checkbox" name="help4" value="book">
+							<label for="book">Книжки</label><br>
+							<input type="checkbox" name="help5" value="fuel">
+							<label for="fuel">Паливо</label><br>
+						</fieldset>
+					</section>
+					<label>
+						Контактна особа <br>
+					</label>
+					<section id = 'personInf'>
+						<input placeholder="Призвище" type="inputText" name="inputSecondName"> <br> <br>
+						<input placeholder="Ім'я" type="inputText" name="inputName"> <br> <br>
+						<input placeholder="Побатькове" type="inputText" name="inputAddName"> <br> <br>
+						<input placeholder="Номер телефону" type="inputText" name="inputPhone"> <br> <br>
+						<input type="email" name="inputMail" placeholder="Електрона адреса"> <br> <br>
+					</section>
+			</fieldset>
+		</form>
+	</section> <br>
+	<section>
+		<table id="tableallow" border="5px" bgcolor="yellow" cellspacing="2px" cellpadding="1px" bordercolor="green" frame="hside">
+			<tbody>
+				<tr>
+					<th colspan="10"><center>Дозволені калібри:</center></th>
+				</tr>
+				<tr>
+					<th>
+						Підрозділи
+					</th>
+					<td>
+						82 мм
+					</td>
+					<td>
+						100 мм
+					</td>
+					<td>
+						122 мм
+					</td>
+					<td>
+						152 мм
+					</td>
+					<td>
+						203 мм
+					</td>
+				</tr>
+				<tr>
+					<th>
+						Бамбалига
+					</th>
+					<td>
+						дозволено
+					</td>
+					<td>
+						дозволено
+					</td>
+					<td>
+						не дозволено
+					</td>
+					<td>
+						не дозволено
+					</td>
+					<td>
+						не дозволено
+					</td>
+				</tr>
+				<tr>
+					<th>
+						Кобра
+					</th>
+					<td>
+						дозволено
+					</td>
+					<td>
+						дозволено
+					</td>
+					<td>
+						дозволено
+					</td>
+					<td>
+						не дозволено
+					</td>
+					<td>
+						не дозволено
+					</td>
+				</tr>
+				<tr>
+					<th>
+						Гуцик
+					</th>
+					<td>
+						дозволено
+					</td>
+					<td>
+						дозволено
+					</td>
+					<td>
+						дозволено
+					</td>
+					<td>
+						не дозволено
+					</td>
+					<td>
+						не дозволено
+					</td>
+					<!-- 
+					<td>
+						не дозволено
+					</td>
+					<td>
+						не дозволено
+					</td> -->
+				</tr>
+			</tbody>
+		</table>
+	</section>
 </body>
 </html>
