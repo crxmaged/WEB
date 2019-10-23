@@ -4,7 +4,7 @@
 	<title>Choose car</title>
 	<style>
 		body {
-		background-image: url("https://wallpaperfm.com/img/original/3/0/6/49288.jpg");
+		background-image: url("https://stmed.net/sites/default/files/light-wallpapers-25248-9886303.jpg");
 		}
 	</style>
 </head>
@@ -16,50 +16,87 @@
 	<section id="setArea">
 		<form id="ToFoorm" name="helpForm" method="post">
 			<fieldset>
-				<legend>Електрона форма для отримання автомобіля ветеранами АТО </legend>
+				<legend>Електрона форма для отримання автомобіля ветеранами АТО (ООС)</legend>
 					<label>
 						Заповніть поля, це дасть змогу швидко обрати авто та дізнатись умови отримання пільги <br> <br>
 					</label>
 					<section id="aboutPosition">
-						<label>Вкажіть тип автомобіля</label>
+						<label>Вкажіть тип кузову автомобіля</label>
 						<select>
-							<option value="sector1">сектор М</option>
-							<option value="sector2">сектор Д</option>
-							<option value="sector3">сектор В</option>
-							<option value="sector4">сектор Л</option>
+							<option value="car1">Позашляховик</option>
+							<option value="car2">Універсал</option>
+							<option value="car3">Мінівен</option>
+							<option value="car4">Седан</option>
+							<option value="car5">Пікап</option>
+							<option value="car6">Купе</option>
+							<option value="car7">Кабріолет</option>
+							<option value="car8">Хечбек</option>
 						</select> <br> <br> 
 						<label>Вкажіть марку</label>
 						<select>
-							<option value="pos1">позиція 1</option>
-							<option value="pos2">позиція 2</option>
-							<option value="pos3">позиція 3</option>
-							<option value="pos4">позиція 4</option>
-							<option value="pos5">позиція 5</option>
-							<option value="pos6">позиція 6</option>
-							<option value="pos7">позиція 7</option>
+							<option value="brend1">Toyota</option>
+							<option value="brend2">Volkswagen</option>
+							<option value="brend3">Audi</option>
+							<option value="brend4">BMW</option>
+							<option value="brend5">Opel</option>
+							<option value="brend6">Honda</option>
+							<option value="brend7">Renault</option>
+							<option value="brend8">Peugeot</option>
+							<option value="brend9">Nissan</option>
+							<option value="brend10">Mitsubishi</option>
+							<option value="brend11">Citroen</option>
+							<option value="brend12">Chevrolet</option>
+							<option value="brend13">Ford</option>
+							<option value="brend14">Fiat</option>
+							<option value="brend15">Subaru</option>
 						</select> <br><br>
+						<label>
+							Модель обранної марки <br>
+						</label>
+						<section id = 'personInf'>
+							<input placeholder="Модель авта" type="inputText" name="inputModel"> <br> <br>
+						</section>
+
 						<label>Вкажіть країну останьої реєстрації автомобіля</label>
 						<select>
-							<option value="pos1">позиція 1</option>
-							<option value="pos2">позиція 2</option>
-							<option value="pos3">позиція 3</option>
-							<option value="pos4">позиція 4</option>
-							<option value="pos5">позиція 5</option>
-							<option value="pos6">позиція 6</option>
-							<option value="pos7">позиція 7</option>
+							<option value="pos1">Польша</option>
+							<option value="pos2">Німеччина</option>
+							<option value="pos3">Франція</option>
+							<option value="pos4">Літва</option>
+							<option value="pos5">Латвія</option>
+							<option value="pos6">Чехія</option>
+							<option value="pos7">Угорщина</option>
+							<option value="pos8">Італія</option>
+							<option value="pos9">Греція</option>
+							<option value="pos10">Бельгія</option>
+							<option value="pos11">Нідерланди</option>
+							<option value="pos12">Данія</option>
+							<option value="pos13">Швейцарія</option>
 						</select>
-					</section>
+					</section> <br>
+					<fieldset>
+						<legend>Данні майбутнього власника автомобіля</legend>
+						<section id = 'personInf'>
+							<input placeholder="Призвище" type="inputText" name="inputSecondName"> <br> <br>
+							<input placeholder="Ім'я" type="inputText" name="inputName"> <br> <br>
+							<input placeholder="Побатькове" type="inputText" name="inputAddName"> <br> <br>
+							<input placeholder="Номер телефону" type="inputText" name="inputPhone"> <br> <br>
+							<input placeholder="Номер УБД" type="inputText" name="inputUBD"> <br> <br>
+							Завантажити фото УБД:	<input type="file" name="myFileUBD"> <br> <br>
+							<input type="email" name="inputMail" placeholder="Електрона адреса"> <br> <br>
+						</section>
+					</fieldset>
+					<section>
+						<p>Раніше завозили автомобілі:</p>
+						  <input type="radio" name="ans" value="yes"> Так<br>
+						  <input type="radio" name="ans" value="no"> Ні<br>
+						  <input type="radio" name="ans" value="other"> Важко віповісти<br>  
 
-					<label>
-						Контактна особа <br>
-					</label>
-					<section id = 'personInf'>
-						<input placeholder="Призвище" type="inputText" name="inputSecondName"> <br> <br>
-						<input placeholder="Ім'я" type="inputText" name="inputName"> <br> <br>
-						<input placeholder="Побатькове" type="inputText" name="inputAddName"> <br> <br>
-						<input placeholder="Номер телефону" type="inputText" name="inputPhone"> <br> <br>
-						<input type="email" name="inputMail" placeholder="Електрона адреса"> <br> <br>
-					</section>
+						<p>Чи маєте ви водійське посвідчення:</p>
+						  <input type="radio" name="ans1" value="yes"> Так<br>
+						  <input type="radio" name="ans1" value="no"> Ні<br>
+						  <input type="radio" name="ans1" value="other"> Важко віповісти<br>  
+					</section> <br>
 					<button type="submit" value="sendText">
 						Подати заявку
 					</button>
