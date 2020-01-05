@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Довільна форма для створення бази данних відомостей людей!</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="personal data">
+	<meta name="description" content="Safe your data in electric data">
+</head>
+<body>
+	<script>
+		var age = 18;
+		alert((age < 18)? "To young!": "Enough!");	
+	</script>
+	<header>
+		<style>
+			body {
+			background-image: url("http://getwallpapers.com/wallpaper/full/d/8/0/90079.jpg");
+			}
+		</style>
+	</header>
+	<main>
+		<section>
+				<form id="formPerson" action="/action_page.php" name="startYourCareer" method="post"> <!-- use forms for user, who want use additional options-->
+				<fieldset>
+					<legend>Електрона форма для заповнення особистих данних</legend>
+					<label>
+						Заповніть поля <br> <br>
+					</label>
+					<section id = 'personInf'>
+						<input placeholder="Призвище" type="inputText" name="inputSecondName"> <br> <br>
+						<input placeholder="Ім'я" type="inputText" name="inputName"> <br> <br>
+						<input placeholder="Побатькове" type="inputText" name="inputAddName"> <br> <br>
+						<input placeholder="Номер телефону" type="inputText" name="inputPhone"> <br> <br>
+						<input type="email" name="inputMail" placeholder="Електрона адреса"> <br> <br>
+						Завантажити фото першої сторінки паспорту:	<input type="file" name="myFileUBD"> <br> <br>
+						Завантажити фото другої сторінки паспорту:	<input type="file" name="myFileUBD"> <br> <br>
+						Завантажити фото сторінки паспорту з пропискою:	<input type="file" name="myFileUBD"> <br> <br>
+						Завантажити фото номеру ЕДРПО:	<input type="file" name="myFileUBD"> <br> <br>
+					</section>
+					<section id = 'genderInf'>
+						<label for="male">Чоловік</label>  
+						<input type="radio" name="gender" id="male" value="male"><br>
+						<label for="female">Жінка</label>
+						<input type="radio" name="gender" id="female" value="female"><br><br>
+					</section>
+					<section id = 'ansQ'>
+						<label for="ZSU">Чи маєте судимоті</label>
+						<input list="ansZSU" name="yesNoZ">
+	  					<datalist id="ansZSU">
+						    <option value="Так">
+						    <option value="Ні">
+						</datalist>
+					</section> <br>
+					<section id = 'ansQE'>
+						<label for="Experience">Маєте водійське посвідчення?</label>
+						<input list="actionExperience" name="yesNoE">
+	  					<datalist id="actionExperience">
+						    <option value="Так">
+						    <option value="Ні">
+						</datalist>
+					</section> <br><br>
+					<section id = 'ansQW'>
+						<fieldset>
+							<legend>Сімейне положення</legend>
+							<input type="checkbox" name="def1" value="weapon">
+							<label for="weapon">Одружений</label><br>
+							<input type="checkbox" name="def2" value="knife">
+							<label for="knife">Не одружений</label><br>
+							<input type="checkbox" name="def3" value="fight">
+							<label for="fight">Розлучений</label><br> 
+							<input type="checkbox" name="def4" value="anotherF">
+							<label for="anotherF">Інше...</label><br>
+						</fieldset>
+					</section><br>
+					<section id = 'ansY'>
+						<label for="yearWork">Трудовий стаж:</label>
+						<input list="ansYear" name="PeriodTime">
+	  					<datalist id="ansYear">
+						    <option value="Меньше п'яти">
+						    <option value="Меньше десяти">
+						    <option value="Меньше двадцяти">
+						    <option value="Меньше тридцяти">
+						</datalist>
+					</section> <br>
+					<section id = 'ansPerson'>
+						<fieldset>
+							<legend>Вкажіть данні людини, яка може підтвердити Вашу особу:</legend>
+							<input required placeholder="Призвище" type="inputText" name="inputSecondNameP"> <br> <br>
+							<input required placeholder="Ім'я" type="inputText" name="inputNameP"> <br> <br>
+							<input required placeholder="Номер телефону" type="inputText" name="inputNumPhone"> <br> <br>
+						</fieldset>
+					</section> 	<br>
+					<button type="submit" value="sendText">
+						Зберегти
+					</button>
+					<button type="reset" value="reset">
+						Очитити данні 
+					</button>
+				</fieldset>
+			</form>
+		</section> <br>
+	</main>
+	<footer>
+		<p>&#169 2019 рік, усі права захищені</p>
+	</footer>
+</body>
+</html>

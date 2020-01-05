@@ -1,0 +1,19 @@
+div { /* My css :); */
+	padding: 15px;
+	margin: -15px;
+	border: 10px solid black;
+	border-radius: 20px;
+	color:blue;
+	background-color:grey; width: 200px; height: 100px; float: left;
+	opacity: 0.8;
+	/*transform: rotate(90deg);*/
+	transition: transform 5s;
+}
+div:hover{
+	transform: rotate(80deg); background-color: red;
+}
+/*
+#g1 {
+	color:blue;
+	background-color:grey; width: 200px; height: 100px; float: left;
+}*/
